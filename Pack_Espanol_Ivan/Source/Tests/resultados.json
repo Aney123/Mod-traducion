@@ -1,0 +1,92 @@
+{
+  "tests": [
+    {
+      "test": "spanish-test",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\nENTRIES=49616 ALIASES=38796 GRAMMAR=2038\nPASS spanish\n"
+    },
+    {
+      "test": "latin-test",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\nENTRIES=49616 ALIASES=38796 GRAMMAR=2038\nPASS latin\n"
+    },
+    {
+      "test": "other-language-test",
+      "passed": true,
+      "output": "PASS other-language\n"
+    },
+    {
+      "test": "late-test",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\nENTRIES=49616 ALIASES=38796 GRAMMAR=2038\nPASS late\n"
+    },
+    {
+      "test": "automatic-automatic",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\nENTRIES=49616 ALIASES=38796 GRAMMAR=2038\nPASS automatic\n"
+    },
+    {
+      "test": "invalid-invalid",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] No se pudo cargar el pack: La cache contiene una clave vacia o repetida.\nPASS invalid\n"
+    },
+    {
+      "test": "invalid-dtd",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] No se pudo cargar el pack: For security reasons DTD is prohibited in this XML document. To enable DTD processing set the DtdProcessing property on XmlReaderSettings to Parse and pass the settings into XmlReader.Create method.\nPASS invalid\n"
+    },
+    {
+      "test": "grammar-test",
+      "passed": true,
+      "output": "PASS grammar-reordered-and-repeated-placeholders\n"
+    },
+    {
+      "test": "direct-screenshots",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Las traducciones locales siguen activas, pero no se pudo activar la corrección del aviso: No se encontró Harmony, necesario para corregir el aviso de construcción.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 23; conservados: 4; rutas ausentes: 59619; errores: 0.\nPASS direct-screenshots-custom-def-lists-patches-nested-fields-native-preserved-deferred-idempotent\n"
+    },
+    {
+      "test": "direct-tasty",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Las traducciones locales siguen activas, pero no se pudo activar la corrección del aviso: No se encontró Harmony, necesario para corregir el aviso de construcción.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 23; conservados: 4; rutas ausentes: 59619; errores: 0.\nPASS tasty-screenshot-helmet-description-vanilla-variant-conditional-mods-cache-native-preserved\n"
+    },
+    {
+      "test": "direct-french",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Selecciona Espanol y reinicia para activar las traducciones.\nPASS direct-french-inactive\n"
+    },
+    {
+      "test": "direct-atomic",
+      "passed": true,
+      "output": "PASS direct-invalid-manifest-atomic\n"
+    },
+    {
+      "test": "missing-dependency",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] No se pudo cargar el pack: Activa Auto Translation antes de este pack. Se necesita su version para RimWorld 1.6 con cache V2.\nPASS missing-dependency-without-crash\n"
+    },
+    {
+      "test": "notification-spanish",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Version 1.4: corrección del aviso de construcción activa; 2 variantes de mensajes, 0 errores.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 0; conservados: 0; rutas ausentes: 59646; errores: 0.\nPASS notification-spanish-real-Harmony-string-TaggedString-factions-markup-targets-type-history-language-idempotence\n"
+    },
+    {
+      "test": "notification-latin",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Version 1.4: corrección del aviso de construcción activa; 2 variantes de mensajes, 0 errores.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 0; conservados: 0; rutas ausentes: 59646; errores: 0.\nPASS notification-latin-real-Harmony-string-TaggedString-factions-markup-targets-type-history-language-idempotence\n"
+    },
+    {
+      "test": "notification-french",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Selecciona Espanol y reinicia para activar las traducciones.\nPASS notification-french-delivery-and-cache-preserved\n"
+    },
+    {
+      "test": "notification-no-harmony",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Las traducciones locales siguen activas, pero no se pudo activar la corrección del aviso: No se encontró Harmony, necesario para corregir el aviso de construcción.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 0; conservados: 0; rutas ausentes: 59646; errores: 0.\nPASS notification-no-harmony-delivery-and-cache-preserved\n"
+    }
+  ],
+  "aliases": 38796,
+  "grammar": 2038,
+  "gameExecuted": false
+}

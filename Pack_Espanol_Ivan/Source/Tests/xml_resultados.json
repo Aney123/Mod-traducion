@@ -1,0 +1,15 @@
+{
+  "tests": [
+    {
+      "test": "xml-v1.4-Spanish",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Las traducciones locales siguen activas, pero no se pudo activar la corrección del aviso: No se encontró Harmony, necesario para corregir el aviso de construcción.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 8; conservados: 0; rutas ausentes: 59638; errores: 0.\nPASS xml-v1.4-Spanish-hygiene-hauling-magic-quests-keyed-placeholder-repair-native-preserved\n"
+    },
+    {
+      "test": "xml-v1.4-SpanishLatin",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Las traducciones locales siguen activas, pero no se pudo activar la corrección del aviso: No se encontró Harmony, necesario para corregir el aviso de construcción.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 8; conservados: 0; rutas ausentes: 59638; errores: 0.\nPASS xml-v1.4-SpanishLatin-hygiene-hauling-magic-quests-keyed-placeholder-repair-native-preserved\n"
+    }
+  ],
+  "gameExecuted": false
+}

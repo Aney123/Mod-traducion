@@ -1,0 +1,13 @@
+{
+  "targetLanguage": "Spanish",
+  "translatorName": "Manual / ChatGPT",
+  "translatorModel": "ChatGPT",
+  "date": "2026-10-05",
+  "translationCount": 49616,
+  "accumulatedThroughLot": 71,
+  "baseAccumulatedThroughLot": 70,
+  "version": "1.4.0",
+  "baseTranslationCount": 41850,
+  "additionalTranslationCount": 7766,
+  "codePackageTextCount": 1545
+}

@@ -1,0 +1,32 @@
+COMPILACIÓN — VERSIÓN 1.4.0
+Source/PackEspanolIvan.csproj compila los cuatro archivos del cargador para
+.NET Framework 4.7.2. Indica RimWorldManagedPath como ruta a la carpeta Managed
+de tu instalación de RimWorld 1.6. Ejemplo con MSBuild:
+  msbuild PackEspanolIvan.csproj /p:Configuration=Release /p:RimWorldManagedPath="RUTA_A_MANAGED"
+
+El binario entregado se compiló con Mono/mcs, optimización activa y referencia
+a Assembly-CSharp.dll de la instalación enviada en los 27 ZIP, de 15.777.280 bytes.
+La identidad de esa referencia es Assembly-CSharp, versión 1.6.9676.17735.
+Las demás API del juego y del motor se descubren por reflexión. Harmony es una
+dependencia de ejecución, sin referencia enlazada ni copia incluida en el ZIP.
+
+CodeTranslations.cs verifica nombre de ensamblado, MVID, token de método,
+tipo, nombre y literal original. El transpiler conserva las instrucciones,
+etiquetas de salto y bloques de excepción originales y añade una selección
+de la traducción según el idioma actual. No repite inicializadores estáticos
+ni parchea métodos genéricos abiertos. Las traducciones nativas sobreviven.
+La fábrica de transpilers sigue la API oficial de Harmony:
+  https://harmony.pardeike.net/articles/patching.html
+
+DirectTranslations.cs conserva el cargador anterior y añade el selector
+ItemType para localizar una extensión de misión por su clase exacta,
+independientemente de los elementos añadidos antes por otros mods.
+NotificationCorrections.cs mantiene la corrección exacta del aviso de construcción.
+
+Source/Tests contiene simulaciones independientes, casos y resultados.
+Las 26 pruebas de integración pasaron, incluidas llamadas parcheadas con la
+misma 0Harmony.dll que los mods activos del usuario (SHA256 en VALIDACION.json).
+Las 9 comprobaciones previas del selector de carpetas no se modificaron.
+No se ejecutaron RimWorld ni las DLL de los otros mods para auditar sus textos:
+se leyeron sus metadatos e instrucciones IL. La simulación no sustituye una
+prueba dentro de la partida real.

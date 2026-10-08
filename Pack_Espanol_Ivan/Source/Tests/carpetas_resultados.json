@@ -1,0 +1,40 @@
+{
+  "tests": [
+    {
+      "test": "root filename LoadFolders.xml",
+      "passed": true
+    },
+    {
+      "test": "root filename loadFolders.xml",
+      "passed": true
+    },
+    {
+      "test": "root filename loadfolders.xml",
+      "passed": true
+    },
+    {
+      "test": "root filename LOADFOLDERS.XML",
+      "passed": true
+    },
+    {
+      "test": "actual Tasty Armory 3469863391",
+      "passed": true
+    },
+    {
+      "test": "actual Tasty Armory 3472989392",
+      "passed": true
+    },
+    {
+      "test": "actual Tasty Armory 3480089301",
+      "passed": true
+    },
+    {
+      "test": "actual Tasty Armory 3482266407",
+      "passed": true
+    },
+    {
+      "test": "actual reported helmet source recovered",
+      "passed": true
+    }
+  ]
+}

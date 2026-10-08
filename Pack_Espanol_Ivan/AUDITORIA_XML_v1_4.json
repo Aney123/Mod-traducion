@@ -1,0 +1,448 @@
+{
+  "version": "1.4.0",
+  "reconstruction": {
+    "archivesVerified": 27,
+    "filesVerified": 27306,
+    "mods": 234,
+    "bytes": 477714058,
+    "warnings": [],
+    "manifestExactMatch": true,
+    "sha256EveryFileVerified": true,
+    "durationSeconds": 3.97
+  },
+  "reviewedCandidateTexts": 1157,
+  "newManuallyTranslatedTexts": 1073,
+  "retainedCandidateTexts": 84,
+  "newKeyedEntriesUsingReviewedExistingTranslations": 4391,
+  "manuallyRepairedReusedKeyedTexts": 37,
+  "undecidedDetectedCandidates": 0,
+  "unresolvedParentReferences": 6062,
+  "unresolvedParentMeaning": "Core/DLC definitions were not complete in the collected sources; this is not an untranslated-text count.",
+  "externalSpanishXmlParseErrors": [
+    {
+      "source": "M/2575968934/Languages/Spanish/DefInjected/ThingDef/Thing_DarkAges+CryptsAndTombs_BuildingsDarkAgesVEF.xml",
+      "error": "mismatched tag: line 4, column 264"
+    }
+  ],
+  "alternateSpanishRules": [
+    {
+      "identity": [
+        "ThingDef",
+        "VFEPD_WashingMachine",
+        "label",
+        "washing machine"
+      ],
+      "kept": "lavadora (atrezo)",
+      "alternate": "lavadora"
+    },
+    {
+      "identity": [
+        "PreceptDef",
+        "VME_Anonymity_Required",
+        "label",
+        "required"
+      ],
+      "kept": "requerido",
+      "alternate": "obligatoria"
+    },
+    {
+      "identity": [
+        "PreceptDef",
+        "VME_Hospital_Required",
+        "label",
+        "required"
+      ],
+      "kept": "requerido",
+      "alternate": "obligatoria"
+    },
+    {
+      "identity": [
+        "PreceptDef",
+        "VFEA_Recruiting_Forbidden",
+        "label",
+        "forbidden"
+      ],
+      "kept": "prohibido",
+      "alternate": "prohibida"
+    },
+    {
+      "identity": [
+        "PreceptDef",
+        "VFEA_BeingRecruited_Forbidden",
+        "label",
+        "forbidden"
+      ],
+      "kept": "prohibido",
+      "alternate": "prohibida"
+    },
+    {
+      "identity": [
+        "PreceptDef",
+        "VME_Trading_Required",
+        "label",
+        "required"
+      ],
+      "kept": "requerido",
+      "alternate": "obligatoria"
+    },
+    {
+      "identity": [
+        "MemeDef",
+        "VME_Royal",
+        "symbolPacks.0.theme",
+        "royalty"
+      ],
+      "kept": "realeza",
+      "alternate": "nobleza"
+    },
+    {
+      "identity": [
+        "IssueDef",
+        "VME_Royalty",
+        "label",
+        "royalty"
+      ],
+      "kept": "realeza",
+      "alternate": "nobleza"
+    },
+    {
+      "identity": [
+        "WeaponClassDef",
+        "VFEM2_Vikings",
+        "label",
+        "vikings"
+      ],
+      "kept": "vikinga",
+      "alternate": "vikingos"
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VFEM2_HemogenDraught",
+        "label",
+        "hemogen draught"
+      ],
+      "kept": "brebaje hemogénico",
+      "alternate": "brebaje de hemógeno"
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VFEM2_ClarityDraught",
+        "label",
+        "clarity draught"
+      ],
+      "kept": "brebaje de lucidez",
+      "alternate": "brebaje de claridad"
+    },
+    {
+      "identity": [
+        "JobDef",
+        "UseMartialArtsTarget",
+        "reportString",
+        "Practising martial arts."
+      ],
+      "kept": "Hacer ejercicio.",
+      "alternate": "Practicando artes marciales."
+    },
+    {
+      "identity": [
+        "JobDef",
+        "UseMartialArtsTarget_NonJoy",
+        "reportString",
+        "Practising martial arts."
+      ],
+      "kept": "Hacer ejercicio.",
+      "alternate": "Practicando artes marciales."
+    },
+    {
+      "identity": [
+        "JobDef",
+        "UseMartialArtsTarget_NonJoy_Work",
+        "reportString",
+        "Practising martial arts."
+      ],
+      "kept": "Hacer ejercicio.",
+      "alternate": "Practicando artes marciales."
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_Beet",
+        "label",
+        "chioggia beet plant"
+      ],
+      "kept": "planta de remolacha chioggia",
+      "alternate": "planta de remolacha"
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_Beet",
+        "description",
+        "An herb-like vegetable widely cultivated for humans and livestock alike. Though these look like ordinary beets from the outside, on the inside they have distinct red-and-white-striped flesh. These are highest on the sweetness scale. While beets do require rich soil they are quite hearty, and will continue to grow very slowly through winter. They need to be planted during growing season, though."
+      ],
+      "kept": "Una hortaliza herbácea muy cultivada para alimentar tanto a humanos como al ganado. Aunque por fuera parece una remolacha corriente, su interior tiene una pulpa con franjas rojas y blancas muy características. Es una de las variedades más dulces. Necesita un suelo fértil, pero es bastante resistente y seguirá creciendo muy lentamente durante el invierno. Eso sí, debe plantarse durante la temporada de cultivo.",
+      "alternate": "Una hortaliza herbácea muy cultivada tanto para el consumo humano como para el ganado, especialmente nutritiva y utilizada históricamente en la fabricación de tintes.\\n\\n<color=#E5E54C>Efecto en el juego:</color> Aunque las remolachas requieren un suelo rico, son bastante resistentes y siguen creciendo a un ritmo del 10% durante el invierno. Sin embargo, deben plantarse durante la temporada de cultivo."
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_RawBeets",
+        "label",
+        "chioggia beets"
+      ],
+      "kept": "remolachas chioggia",
+      "alternate": "remolachas"
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_RawBeets",
+        "description",
+        "An herb-like vegetable widely cultivated for humans and livestock alike. Though these look like ordinary beets from the outside, on the inside they have distinct red-and-white-striped flesh. These are highest on the sweetness scale."
+      ],
+      "kept": "Una hortaliza herbácea muy cultivada para alimentar tanto a humanos como al ganado. Aunque por fuera parece una remolacha corriente, su interior tiene una pulpa con franjas rojas y blancas muy características. Es una de las variedades más dulces.",
+      "alternate": "Una hortaliza herbácea muy cultivada tanto para el consumo humano como para el ganado, especialmente nutritiva y utilizada históricamente en la fabricación de tintes."
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_Cabbage",
+        "label",
+        "cauliflower plant"
+      ],
+      "kept": "planta de coliflor",
+      "alternate": "planta de col"
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_Cabbage",
+        "description",
+        "A large round vegetable that has a hard white centre surrounded by green leaves, naturally high in fiber and B-vitamins. This particular strain seems highly resistant to airborne toxins and radiation."
+      ],
+      "kept": "Una gran hortaliza redonda con un centro blanco y duro rodeado de hojas verdes, naturalmente rica en fibra y vitaminas del grupo B. Esta variedad parece muy resistente a las toxinas del aire y a la radiación.",
+      "alternate": "Una verdura de hojas verdes bastante resistente, que a menudo se pica, se fermenta o se guisa. Esta variedad en concreto parece ser muy resistente a las toxinas del aire y a la radiación. \\n\\n<color=#E5E54C>Efecto en el juego:</color> Las coles no se ven afectadas por la lluvia tóxica, y a diferencia de otras plantas, no mueren por su efecto."
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_RawCabbage",
+        "label",
+        "cauliflowers"
+      ],
+      "kept": "coliflores",
+      "alternate": "coles"
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_RawCabbage",
+        "description",
+        "A large round vegetable that has a hard white centre surrounded by green leaves, naturally high in fiber and B-vitamins."
+      ],
+      "kept": "Una gran hortaliza redonda con un centro blanco y duro rodeado de hojas verdes, naturalmente rica en fibra y vitaminas del grupo B.",
+      "alternate": "Una verdura de hojas verdes bastante resistente, que a menudo se pica, se fermenta o se guisa."
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_Onion",
+        "label",
+        "white onion plant"
+      ],
+      "kept": "planta de cebolla blanca",
+      "alternate": "planta de cebolla"
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_Onion",
+        "description",
+        "A strong and pungent variety of onions, perfect for flavourful salads or for general cooking applications when strong flavours are desired. Cannot suffer the effects of blight."
+      ],
+      "kept": "Una variedad de cebolla de sabor fuerte y penetrante, perfecta para ensaladas sabrosas o para cocinar cuando se buscan sabores intensos. No sufre los efectos de las plagas.",
+      "alternate": "Un bulbo comestible, intenso y aromático, con casi tantas variedades como aplicaciones culinarias.\\n\\n<color=#E5E54C>Efecto en el juego:</color> Las cebollas no se ven afectadas por el tizón."
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_RawOnion",
+        "label",
+        "white onions"
+      ],
+      "kept": "cebollas blancas",
+      "alternate": "cebollas"
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_RawOnion",
+        "description",
+        "A strong and pungent variety of onions, perfect for flavourful salads or for general cooking applications when strong flavours are desired."
+      ],
+      "kept": "Una variedad de cebolla de sabor fuerte y penetrante, perfecta para ensaladas sabrosas o para cocinar cuando se buscan sabores intensos.",
+      "alternate": "Un bulbo comestible, intenso y aromático, con casi tantas variedades como aplicaciones culinarias."
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_Pumpkin",
+        "label",
+        "mammoth gold pumpkin plant"
+      ],
+      "kept": "planta de calabaza mammoth gold",
+      "alternate": "planta de calabaza"
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_Pumpkin",
+        "description",
+        "One of the biggest varieties of pumpkin, the mammoth gold can grow to between 25 and 50 Kg of weight. Technically a giant berry, pumpkins are renowned for being trivial to both sow and harvest. However, their durability means added weight and mass - Too cumbersome for hydroponics basins."
+      ],
+      "kept": "Una de las variedades de calabaza más grandes: la mammoth gold puede alcanzar entre 25 y 50 Kg de peso. Técnicamente son bayas gigantes, y las calabazas son conocidas por lo fácil que resulta sembrarlas y cosecharlas. Sin embargo, su resistencia supone un mayor peso y volumen, lo que las hace demasiado aparatosas para las cubetas hidropónicas.",
+      "alternate": "Las calabazas, que técnicamente son bayas gigantes, son famosas por ser fáciles de sembrar y cosechar. Sin embargo, su dureza implica un mayor peso y volumen, lo que las hace demasiado aparatosas para los sistemas hidropónicos.\\n\\n<color=#E5E54C>Efecto en el juego:</color> La cosecha de calabazas siempre será satisfactoria, independientemente del nivel de habilidad de los colonos."
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_RawPumpkin",
+        "label",
+        "mammoth gold pumpkins"
+      ],
+      "kept": "calabazas mammoth gold",
+      "alternate": "calabazas"
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_RawPumpkin",
+        "description",
+        "One of the biggest varieties of pumpkin, the mammoth gold can grow to between 25 and 50 Kg of weight. Technically a giant berry, pumpkins are renowned for being trivial to both sow and harvest."
+      ],
+      "kept": "Una de las variedades de calabaza más grandes: la mammoth gold puede alcanzar entre 25 y 50 Kg de peso. Técnicamente son bayas gigantes, y las calabazas son conocidas por lo fácil que resulta sembrarlas y cosecharlas.",
+      "alternate": "Las calabazas, que técnicamente son bayas gigantes, son famosas por ser fáciles de sembrar y cosechar."
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_Tomato",
+        "label",
+        "red beefsteak tomato plant"
+      ],
+      "kept": "planta de tomate beefsteak rojo",
+      "alternate": "tomatera"
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_Tomato",
+        "description",
+        "A variety of tomatoes with a firm, meaty, rich, vibrant red colour. Its flavour is mild, juicy and balanced compared to other varieties. Tomatoes are easily removed from the vine without having to uproot the plant."
+      ],
+      "kept": "Una variedad de tomate con una pulpa firme y carnosa de un rojo intenso y vivo. En comparación con otras variedades, su sabor es suave, jugoso y equilibrado. Los tomates se desprenden fácilmente del tallo sin necesidad de arrancar la planta.",
+      "alternate": "Una serie de jugosos frutos rojos y brillantes unidos por una enredadera, que se utilizan habitualmente como verdura. Al cocinarlos a fuego fuerte, liberan azúcares naturales y suavizan los ácidos que contienen. Los tomates se pueden separar fácilmente de la enredadera sin necesidad de arrancar la planta. \\n\\n<color=#E5E54C>Efecto en el juego:</color> Los tomates no se destruyen al cosecharlos, similar a lo que ocurre con los árboles frutales."
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_RawTomatoes",
+        "label",
+        "red beefsteak tomatoes"
+      ],
+      "kept": "tomates beefsteak rojos",
+      "alternate": "tomates"
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_RawTomatoes",
+        "description",
+        "A variety of tomatoes with a firm, meaty, rich, vibrant red colour. Its flavour is mild, juicy and balanced compared to other varieties."
+      ],
+      "kept": "Una variedad de tomate con una pulpa firme y carnosa de un rojo intenso y vivo. En comparación con otras variedades, su sabor es suave, jugoso y equilibrado.",
+      "alternate": "Una serie de jugosos frutos rojos y brillantes unidos por una enredadera, que se utilizan habitualmente como verdura. Al cocinarlos a fuego fuerte, liberan azúcares naturales y suavizan los ácidos que contienen."
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_AppleTree",
+        "label",
+        "granny smith apple tree"
+      ],
+      "kept": "manzano granny smith",
+      "alternate": "manzano"
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_AppleTree",
+        "description",
+        "A tree bearing hard apples, with a light green skin and crisp, juicy flesh. The flavour is tart and acidic. It remains firm when baked, making it a very popular cooking apple used in pies, where it can be sweetened."
+      ],
+      "kept": "Un árbol que produce manzanas duras de piel verde clara y pulpa crujiente y jugosa. Su sabor es agrio y ácido. Conservan su firmeza al hornearse, por lo que son muy populares en repostería, especialmente en tartas, donde se pueden endulzar.",
+      "alternate": "Un árbol que produce manzanas rojas y brillantes. Aunque existen una gran variedad de tipos diferentes, esta variedad en concreto prefiere veranos cálidos e inviernos suaves. Las manzanas se han utilizado como tentempié, ingrediente para postres y para elaborar sidra desde tiempos inmemoriales.\\n\\n<color=#E5E54C>Efecto en el juego:</color> Todos los árboles frutales ocupan aproximadamente cuatro veces más espacio que los cultivos normales, tardan mucho tiempo en crecer y producen frutos que se pueden comer crudos. No se destruyen después de la cosecha, pero tienen una vida útil limitada, por lo que eventualmente será necesario replantarlos."
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_RawApple",
+        "label",
+        "granny smith apples"
+      ],
+      "kept": "manzanas granny smith",
+      "alternate": "manzanas"
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VCE_RawApple",
+        "description",
+        "Hard apples, with a light green skin and crisp, juicy flesh. The flavour is tart and acidic. It remains firm when baked, making it a very popular cooking apple used in pies, where it can be sweetened."
+      ],
+      "kept": "Manzanas duras de piel verde clara y pulpa crujiente y jugosa. Su sabor es agrio y ácido. Conservan su firmeza al hornearse, por lo que son muy populares en repostería, especialmente en tartas, donde se pueden endulzar.",
+      "alternate": "Manzanas rojas y brillantes. Las manzanas se han utilizado como tentempié, ingrediente para postres y para elaborar sidra desde tiempos inmemoriales."
+    },
+    {
+      "identity": [
+        "ThingCategoryDef",
+        "VCE_Fruit",
+        "label",
+        "raw biome fruits"
+      ],
+      "kept": "frutas del bioma crudas",
+      "alternate": "frutas frescas"
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "VFE_Pottery",
+        "description",
+        "A small-size piece of pottery with artistic engravings. Can be crafted on a crafting spot. \\n\\n<color=#E5E54C>Storage stats:</color> \nStack size total: 2 \nStack per tile: 2 \n\nAllowed items: Food, Plant matter."
+      ],
+      "kept": "Una pequeña pieza de cerámica con grabados artísticos. Puede fabricarse en un punto de fabricación. \\n\\n<color=#E5E54C>Datos de almacenamiento:</color> \nTamaño total de las pilas: 2 \nPilas por casilla: 2 \n\nObjetos permitidos: comida y materia vegetal.",
+      "alternate": "Una pieza de cerámica de pequeño tamaño con grabados artísticos. Se puede elaborar en un punto de trabajo artesanal."
+    },
+    {
+      "identity": [
+        "ThingDef",
+        "sbz_Fridge",
+        "description",
+        "A fridge that can freeze up to 4 items. Does not function in temperatures above 100°C."
+      ],
+      "kept": "Una nevera que puede congelar hasta 4 objetos. No funciona a temperaturas superiores a 100°C.",
+      "alternate": "Un frigorífico que puede congelar hasta 2 objetos. No funciona a temperaturas superiores a 100 °C."
+    }
+  ],
+  "sourceOperationCorrection": {
+    "def": "LongRangeMineralScannerLump",
+    "operation": "PatchOperationAddModExtension",
+    "path": "modExtensions.0.label",
+    "itemType": "MedievalOverhaul.QuestInformation",
+    "selection": "exact class, independent of list position"
+  },
+  "gameExecuted": false,
+  "scope": "No undecided candidates in the detected source review. This does not assert that every string possible in a live game has been discovered."
+}

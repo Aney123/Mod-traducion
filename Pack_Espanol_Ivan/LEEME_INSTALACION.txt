@@ -1,0 +1,61 @@
+PACK ESPAÑOL DE IVÁN — VERSIÓN 1.4.0 — RIMWORLD 1.6
+
+INSTALACIÓN
+1. Cierra RimWorld.
+2. Retira la carpeta antigua Pack_Espanol_Ivan de Mods. Sustitúyela por completo;
+   evita mezclar los archivos de la versión anterior con los nuevos.
+3. Extrae la carpeta Pack_Espanol_Ivan de este ZIP dentro de Mods.
+   Deben existir Mods/Pack_Espanol_Ivan/About/About.xml y About/Version.txt.
+   Version.txt debe indicar 1.4.0.
+4. Activa Harmony y Auto Translation. Coloca este pack al final de los mods activos.
+5. Selecciona Español o Español (Latinoamérica) y reinicia el juego.
+
+El Player.log entregado mostraba que seguía cargándose la versión 1.1.
+Comprueba ahora que el registro contiene «[Pack Espanol de Ivan] Version 1.4».
+El recuento esperado de caché es «Cargadas 49616 traducciones locales».
+No necesitas crear ni editar un Gist para usar este pack.
+
+CONTENIDO
+- Conserva las 41.850 entradas base originales, sin cambiar sus bytes.
+- Conserva las 2.302 entradas adicionales y las reglas anteriores.
+- Añade 5.464 claves de caché: 1.073 textos nuevos revisados y 4.391 claves
+  actuales que reutilizan traducciones existentes o correcciones de formato.
+- Caché total: 49.616 entradas. Aplicación directa: 59.646 reglas.
+- Código: 1.545 textos por mod (1.497 originales distintos), 1.668 reglas,
+  508 métodos y 69 identificadores de mods. Estos recuentos son distintos:
+  un mismo texto puede aparecer en varias reglas y también en los XML.
+- Se incluyen correcciones de interfaces, objetos, misiones y notificaciones,
+  entre ellas Faction Territories, Dubs Bad Hygiene, Empire y RimHUD.
+- El aviso de construcción conserva el nombre de la facción. Se traducen
+  los avisos nuevos; los mensajes históricos ya guardados no se reescriben.
+
+COMPROBACIÓN Y ALCANCE
+Se reconstruyeron y verificaron los 27 ZIP: 27.306 archivos y 234 carpetas de mods.
+Se revisaron los candidatos detectados en las fuentes entregadas. No quedaron
+candidatos sin decidir en esa revisión. Nombres propios y claves técnicas se
+conservan cuando corresponde. Los CSV de revisión permiten consultar cada decisión.
+Las reglas directas conservan las traducciones nativas y textos cuyo original
+ya haya cambiado. Una extensión de misión se busca por su clase exacta.
+Las reglas del código solo se aplican al ensamblado, versión interna, método
+y literal originales inspeccionados. Si una DLL se actualiza, esas reglas se
+omiten y pueden requerir una revisión con los archivos nuevos.
+
+El cargador se compiló contra Assembly-CSharp.dll de la instalación entregada.
+Pasaron 26 pruebas de integración y se conservan 9 comprobaciones de carpetas.
+Las pruebas usan una simulación de la API y la misma DLL de Harmony que tus
+mods activos. No se ejecutó RimWorld aquí, por lo que esto no certifica que
+desaparezca todo el inglés posible de una partida real.
+
+Se encontró un XML de español mal formado en la traducción externa de Dark Ages.
+No se altera ese mod. Las definiciones base de Core/DLC no estaban completas
+en la recopilación; sus referencias de herencia no equivalen a textos pendientes.
+AUDITORIA_XML_v1_4.json y VALIDACION.json detallan el alcance de la revisión.
+
+MODO LOCAL
+Data/Config.xml contiene CacheOnly=true. El pack añade las traducciones locales
+a la caché del motor y desactiva la generación automática durante esta sesión.
+Ese ajuste no cambia permanentemente la configuración del usuario.
+
+Solo se distribuye Assemblies/PackEspanolIvan.dll. El ZIP no contiene DLL del
+juego, Harmony, Auto Translation ni otros mods. El código del cargador y los
+casos de comprobación están en Source.

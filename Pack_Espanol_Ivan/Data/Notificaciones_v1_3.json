@@ -1,0 +1,15 @@
+[
+  {
+    "id": "settlement-construction",
+    "original": "Settlement construction: {FACTION} has begun constructing a new settlement near the edge of its territory.",
+    "translated": "Construcción de asentamiento: {FACTION} ha comenzado a construir un nuevo asentamiento cerca del límite de su territorio.",
+    "placeholder": "{FACTION}",
+    "observedOriginal": "Settlement construction: El clan de Oveja has begun constructing a new settlement near the edge of its territory.",
+    "observedTranslated": "Construcción de asentamiento: El clan de Oveja ha comenzado a construir un nuevo asentamiento cerca del límite de su territorio.",
+    "origin": "User screenshot image(20261005-035946).png; complete message absent from supplied XML sources",
+    "method": "Runtime prefix on Verse.Messages.Message text overloads using the already loaded Harmony API",
+    "newCacheEntries": 0,
+    "gameExecuted": false,
+    "appliesTo": "New matching notifications while Spanish or SpanishLatin is selected"
+  }
+]

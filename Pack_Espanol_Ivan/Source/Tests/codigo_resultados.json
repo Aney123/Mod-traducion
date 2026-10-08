@@ -1,0 +1,40 @@
+{
+  "tests": [
+    {
+      "test": "code-spanish",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Version 1.4: código traducido en 8 métodos; versiones ausentes: 1; métodos no compatibles: 2; errores: 0.\n[Pack Espanol de Ivan] Version 1.4: corrección del aviso de construcción activa; 2 variantes de mensajes, 0 errores.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 0; conservados: 0; rutas ausentes: 59646; errores: 0.\n[Pack Espanol de Ivan] Version 1.4: código traducido en 8 métodos; versiones ausentes: 2; métodos no compatibles: 4; errores: 0.\nPASS code-spanish-real-Harmony-exact-methods-keys-variables-tags-branches-exceptions-iterator-constructors-native-language-idempotence\n"
+    },
+    {
+      "test": "code-latin",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Version 1.4: código traducido en 8 métodos; versiones ausentes: 1; métodos no compatibles: 2; errores: 0.\n[Pack Espanol de Ivan] Version 1.4: corrección del aviso de construcción activa; 2 variantes de mensajes, 0 errores.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 0; conservados: 0; rutas ausentes: 59646; errores: 0.\n[Pack Espanol de Ivan] Version 1.4: código traducido en 8 métodos; versiones ausentes: 2; métodos no compatibles: 4; errores: 0.\nPASS code-latin-real-Harmony-exact-methods-keys-variables-tags-branches-exceptions-iterator-constructors-native-language-idempotence\n"
+    },
+    {
+      "test": "code-french",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Selecciona Espanol y reinicia para activar las traducciones.\nPASS code-french-atomic-and-cache-preserved\n"
+    },
+    {
+      "test": "code-no-harmony",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Las traducciones locales siguen activas; no se pudo cargar la ampliación del código: No se encontró Harmony para las traducciones del código.\n[Pack Espanol de Ivan] Las traducciones locales siguen activas, pero no se pudo activar la corrección del aviso: No se encontró Harmony, necesario para corregir el aviso de construcción.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 0; conservados: 0; rutas ausentes: 59646; errores: 0.\nPASS code-no-harmony-atomic-and-cache-preserved\n"
+    },
+    {
+      "test": "code-invalid",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Las traducciones locales siguen activas; no se pudo cargar la ampliación del código: Identidad de método inválida.\n[Pack Espanol de Ivan] Version 1.4: corrección del aviso de construcción activa; 2 variantes de mensajes, 0 errores.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 0; conservados: 0; rutas ausentes: 59646; errores: 0.\nPASS code-invalid-atomic-and-cache-preserved\n"
+    },
+    {
+      "test": "code-dtd",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Las traducciones locales siguen activas; no se pudo cargar la ampliación del código: For security reasons DTD is prohibited in this XML document. To enable DTD processing set the DtdProcessing property on XmlReaderSettings to Parse and pass the settings into XmlReader.Create method.\n[Pack Espanol de Ivan] Version 1.4: corrección del aviso de construcción activa; 2 variantes de mensajes, 0 errores.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 0; conservados: 0; rutas ausentes: 59646; errores: 0.\nPASS code-dtd-atomic-and-cache-preserved\n"
+    },
+    {
+      "test": "code-unknown",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Version 1.4: código traducido en 0 métodos; versiones ausentes: 14; métodos no compatibles: 0; errores: 0.\n[Pack Espanol de Ivan] Version 1.4: corrección del aviso de construcción activa; 2 variantes de mensajes, 0 errores.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 0; conservados: 0; rutas ausentes: 59646; errores: 0.\nPASS code-unknown-atomic-and-cache-preserved\n"
+    }
+  ],
+  "gameExecuted": false
+}

@@ -1,0 +1,682 @@
+{
+  "version": "1.4.0",
+  "baseEntries": 41850,
+  "previousAdditionalEntries": 2302,
+  "newCacheEntriesThisVersion": 5464,
+  "additionalCacheEntries": 7766,
+  "totalEntries": 49616,
+  "previousDirectRules": 58526,
+  "newDirectRulesThisVersion": 1120,
+  "directRules": 59646,
+  "newManuallyTranslatedXMLTexts": 1073,
+  "retainedXMLCandidates": 84,
+  "reusedKeyedEntriesAdded": 4391,
+  "originalEntriesPreserved": true,
+  "previousSupplementEntriesPreserved": true,
+  "previousDirectRulesPreserved": true,
+  "gameExecuted": false,
+  "newCodePackageTexts": 1545,
+  "codeRules": 1668,
+  "codeMethods": 508,
+  "codePackages": 69,
+  "notificationTemplates": 1,
+  "newNotificationTemplatesThisVersion": 0,
+  "previousVersion": {
+    "version": "1.3.0",
+    "baseEntries": 41850,
+    "additionalCacheEntries": 2302,
+    "totalEntries": 44152,
+    "newCacheEntriesThisVersion": 0,
+    "directRules": 58526,
+    "newDirectRulesThisVersion": 0,
+    "notificationTemplates": 1,
+    "newNotificationTemplatesThisVersion": 1,
+    "previousCachePayloadsUnchanged": true,
+    "previousDirectRulesUnchanged": true,
+    "previousVersion": {
+      "version": "1.2.0",
+      "baseEntries": 41850,
+      "previousAdditionalEntries": 877,
+      "newEntriesThisVersion": 1425,
+      "newEntries": 2302,
+      "totalEntries": 44152,
+      "directRules": 58526,
+      "previousDirectRules": 53995,
+      "additionalDirectRules": 4531,
+      "directPackages": 229,
+      "newByMod": {
+        "Vanilla Furniture Expanded - Security": 3,
+        "Vanilla Furniture Expanded - Props and Decor": 946,
+        "Vanilla Ideology Expanded - Memes and Structures": 140,
+        "Vanilla Factions Expanded - Pirates": 33,
+        "Vanilla Plants Expanded - More Plants": 50,
+        "Vanilla Races Expanded - Sanguophage": 2,
+        "Alpha Mechs": 83,
+        "Vanilla Races Expanded - Pigskin": 3,
+        "Reel's Expanded Storage": 6,
+        "Vanilla Factions Expanded - Medieval 2": 61,
+        "Tasty Armory - High Medieval": 15,
+        "Chougou Mechs": 70,
+        "Vanilla Furniture Expanded": 5,
+        "Medieval Medicines Medieval Overhaul Edition": 7,
+        "Tasty Armory - In Shining Armor": 1
+      },
+      "retainedProperNamesAndAlreadySpanish": 58,
+      "recognizedNewFiles": 528,
+      "previousSupplementPreserved": true,
+      "previousDirectRulesPreserved": true,
+      "screenshotPolicies": 50,
+      "waterLock": 2,
+      "spectacleHelm": 2,
+      "markerErrors": 0,
+      "gameExecuted": false
+    },
+    "gameExecuted": false
+  },
+  "supportedRimWorldVersion": "1.6",
+  "observedRimWorldBuild": "1.6.4871 rev590",
+  "observedInstalledPack": "1.1",
+  "dependencies": [
+    "seohyeon.autotranslation",
+    "brrainz.harmony"
+  ],
+  "basePayloadUnchanged": true,
+  "basePayloadSha256": "40ea21bacb5cb1bc18be21693cf7d69fc8814e7e1235481c8306b915bbbbe576",
+  "previousAdditionalEntryValuesPreserved": 2302,
+  "previousDirectRuleValuesPreserved": 58526,
+  "supplementSha256": "515298ab545bc2d602f2d6125226b316acd7b43b9099c1bdc6dd5dff8435f41d",
+  "directManifestSha256": "61d1b97d4b74a33797671cdbc9a680f63dacee7215b6601293bc76904250a84b",
+  "codeManifestSha256": "a5da667bbfc25a0107bb2a8670b04260f5ea8ab13af619612313b448298e9645",
+  "loaderSha256": "59e79510a4189092bba11e921aba168afa7cb43ad4ef1765c71b84610704c09c",
+  "compiledAgainstUploadedGameAssembly": true,
+  "gameAssemblyReferenceIdentity": "Assembly-CSharp, Version=1.6.9676.17735",
+  "gameAssemblySha256": "5cf1b5be399d5b1c9c56ca72c9d35b4ecf307feacf5859d04ac5a1aa5926356a",
+  "harmonyTestSha256": "353daafec180bb8e7bbe4da78f2a7cdc78067392e3a4e79dc8e7af295f2371e6",
+  "harmonyMatchesUploadedActiveMods": true,
+  "integrationTestCount": 26,
+  "integrationTests": [
+    {
+      "test": "spanish-test",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\nENTRIES=49616 ALIASES=38796 GRAMMAR=2038\nPASS spanish\n"
+    },
+    {
+      "test": "latin-test",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\nENTRIES=49616 ALIASES=38796 GRAMMAR=2038\nPASS latin\n"
+    },
+    {
+      "test": "other-language-test",
+      "passed": true,
+      "output": "PASS other-language\n"
+    },
+    {
+      "test": "late-test",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\nENTRIES=49616 ALIASES=38796 GRAMMAR=2038\nPASS late\n"
+    },
+    {
+      "test": "automatic-automatic",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\nENTRIES=49616 ALIASES=38796 GRAMMAR=2038\nPASS automatic\n"
+    },
+    {
+      "test": "invalid-invalid",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] No se pudo cargar el pack: La cache contiene una clave vacia o repetida.\nPASS invalid\n"
+    },
+    {
+      "test": "invalid-dtd",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] No se pudo cargar el pack: For security reasons DTD is prohibited in this XML document. To enable DTD processing set the DtdProcessing property on XmlReaderSettings to Parse and pass the settings into XmlReader.Create method.\nPASS invalid\n"
+    },
+    {
+      "test": "grammar-test",
+      "passed": true,
+      "output": "PASS grammar-reordered-and-repeated-placeholders\n"
+    },
+    {
+      "test": "direct-screenshots",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Las traducciones locales siguen activas, pero no se pudo activar la corrección del aviso: No se encontró Harmony, necesario para corregir el aviso de construcción.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 23; conservados: 4; rutas ausentes: 59619; errores: 0.\nPASS direct-screenshots-custom-def-lists-patches-nested-fields-native-preserved-deferred-idempotent\n"
+    },
+    {
+      "test": "direct-tasty",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Las traducciones locales siguen activas, pero no se pudo activar la corrección del aviso: No se encontró Harmony, necesario para corregir el aviso de construcción.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 23; conservados: 4; rutas ausentes: 59619; errores: 0.\nPASS tasty-screenshot-helmet-description-vanilla-variant-conditional-mods-cache-native-preserved\n"
+    },
+    {
+      "test": "direct-french",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Selecciona Espanol y reinicia para activar las traducciones.\nPASS direct-french-inactive\n"
+    },
+    {
+      "test": "direct-atomic",
+      "passed": true,
+      "output": "PASS direct-invalid-manifest-atomic\n"
+    },
+    {
+      "test": "missing-dependency",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] No se pudo cargar el pack: Activa Auto Translation antes de este pack. Se necesita su version para RimWorld 1.6 con cache V2.\nPASS missing-dependency-without-crash\n"
+    },
+    {
+      "test": "notification-spanish",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Version 1.4: corrección del aviso de construcción activa; 2 variantes de mensajes, 0 errores.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 0; conservados: 0; rutas ausentes: 59646; errores: 0.\nPASS notification-spanish-real-Harmony-string-TaggedString-factions-markup-targets-type-history-language-idempotence\n"
+    },
+    {
+      "test": "notification-latin",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Version 1.4: corrección del aviso de construcción activa; 2 variantes de mensajes, 0 errores.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 0; conservados: 0; rutas ausentes: 59646; errores: 0.\nPASS notification-latin-real-Harmony-string-TaggedString-factions-markup-targets-type-history-language-idempotence\n"
+    },
+    {
+      "test": "notification-french",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Selecciona Espanol y reinicia para activar las traducciones.\nPASS notification-french-delivery-and-cache-preserved\n"
+    },
+    {
+      "test": "notification-no-harmony",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Las traducciones locales siguen activas, pero no se pudo activar la corrección del aviso: No se encontró Harmony, necesario para corregir el aviso de construcción.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 0; conservados: 0; rutas ausentes: 59646; errores: 0.\nPASS notification-no-harmony-delivery-and-cache-preserved\n"
+    },
+    {
+      "test": "code-spanish",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Version 1.4: código traducido en 8 métodos; versiones ausentes: 1; métodos no compatibles: 2; errores: 0.\n[Pack Espanol de Ivan] Version 1.4: corrección del aviso de construcción activa; 2 variantes de mensajes, 0 errores.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 0; conservados: 0; rutas ausentes: 59646; errores: 0.\n[Pack Espanol de Ivan] Version 1.4: código traducido en 8 métodos; versiones ausentes: 2; métodos no compatibles: 4; errores: 0.\nPASS code-spanish-real-Harmony-exact-methods-keys-variables-tags-branches-exceptions-iterator-constructors-native-language-idempotence\n"
+    },
+    {
+      "test": "code-latin",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Version 1.4: código traducido en 8 métodos; versiones ausentes: 1; métodos no compatibles: 2; errores: 0.\n[Pack Espanol de Ivan] Version 1.4: corrección del aviso de construcción activa; 2 variantes de mensajes, 0 errores.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 0; conservados: 0; rutas ausentes: 59646; errores: 0.\n[Pack Espanol de Ivan] Version 1.4: código traducido en 8 métodos; versiones ausentes: 2; métodos no compatibles: 4; errores: 0.\nPASS code-latin-real-Harmony-exact-methods-keys-variables-tags-branches-exceptions-iterator-constructors-native-language-idempotence\n"
+    },
+    {
+      "test": "code-french",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Selecciona Espanol y reinicia para activar las traducciones.\nPASS code-french-atomic-and-cache-preserved\n"
+    },
+    {
+      "test": "code-no-harmony",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Las traducciones locales siguen activas; no se pudo cargar la ampliación del código: No se encontró Harmony para las traducciones del código.\n[Pack Espanol de Ivan] Las traducciones locales siguen activas, pero no se pudo activar la corrección del aviso: No se encontró Harmony, necesario para corregir el aviso de construcción.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 0; conservados: 0; rutas ausentes: 59646; errores: 0.\nPASS code-no-harmony-atomic-and-cache-preserved\n"
+    },
+    {
+      "test": "code-invalid",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Las traducciones locales siguen activas; no se pudo cargar la ampliación del código: Identidad de método inválida.\n[Pack Espanol de Ivan] Version 1.4: corrección del aviso de construcción activa; 2 variantes de mensajes, 0 errores.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 0; conservados: 0; rutas ausentes: 59646; errores: 0.\nPASS code-invalid-atomic-and-cache-preserved\n"
+    },
+    {
+      "test": "code-dtd",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Las traducciones locales siguen activas; no se pudo cargar la ampliación del código: For security reasons DTD is prohibited in this XML document. To enable DTD processing set the DtdProcessing property on XmlReaderSettings to Parse and pass the settings into XmlReader.Create method.\n[Pack Espanol de Ivan] Version 1.4: corrección del aviso de construcción activa; 2 variantes de mensajes, 0 errores.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 0; conservados: 0; rutas ausentes: 59646; errores: 0.\nPASS code-dtd-atomic-and-cache-preserved\n"
+    },
+    {
+      "test": "code-unknown",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Version 1.4: código traducido en 0 métodos; versiones ausentes: 14; métodos no compatibles: 0; errores: 0.\n[Pack Espanol de Ivan] Version 1.4: corrección del aviso de construcción activa; 2 variantes de mensajes, 0 errores.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 0; conservados: 0; rutas ausentes: 59646; errores: 0.\nPASS code-unknown-atomic-and-cache-preserved\n"
+    },
+    {
+      "test": "xml-v1.4-Spanish",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Las traducciones locales siguen activas, pero no se pudo activar la corrección del aviso: No se encontró Harmony, necesario para corregir el aviso de construcción.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 8; conservados: 0; rutas ausentes: 59638; errores: 0.\nPASS xml-v1.4-Spanish-hygiene-hauling-magic-quests-keyed-placeholder-repair-native-preserved\n"
+    },
+    {
+      "test": "xml-v1.4-SpanishLatin",
+      "passed": true,
+      "output": "[Pack Espanol de Ivan] Cargadas 49616 traducciones locales; 38796 claves de compatibilidad. No se necesita Gist.\n[Pack Espanol de Ivan] Las traducciones locales siguen activas, pero no se pudo activar la corrección del aviso: No se encontró Harmony, necesario para corregir el aviso de construcción.\n[Pack Espanol de Ivan] Version 1.4: textos aplicados directamente: 8; conservados: 0; rutas ausentes: 59638; errores: 0.\nPASS xml-v1.4-SpanishLatin-hygiene-hauling-magic-quests-keyed-placeholder-repair-native-preserved\n"
+    }
+  ],
+  "simulatedCacheAliases": 38796,
+  "simulatedGrammarAliases": 2038,
+  "folderTests": [
+    {
+      "test": "root filename LoadFolders.xml",
+      "passed": true
+    },
+    {
+      "test": "root filename loadFolders.xml",
+      "passed": true
+    },
+    {
+      "test": "root filename loadfolders.xml",
+      "passed": true
+    },
+    {
+      "test": "root filename LOADFOLDERS.XML",
+      "passed": true
+    },
+    {
+      "test": "actual Tasty Armory 3469863391",
+      "passed": true
+    },
+    {
+      "test": "actual Tasty Armory 3472989392",
+      "passed": true
+    },
+    {
+      "test": "actual Tasty Armory 3480089301",
+      "passed": true
+    },
+    {
+      "test": "actual Tasty Armory 3482266407",
+      "passed": true
+    },
+    {
+      "test": "actual reported helmet source recovered",
+      "passed": true
+    }
+  ],
+  "reconstruction": {
+    "archivesVerified": 27,
+    "filesVerified": 27306,
+    "mods": 234,
+    "bytes": 477714058,
+    "warnings": [],
+    "manifestExactMatch": true,
+    "sha256EveryFileVerified": true,
+    "durationSeconds": 3.97
+  },
+  "codeAudit": {
+    "version": "1.4.0",
+    "archives": 27,
+    "collectedModRoots": 234,
+    "sourceFiles": 27306,
+    "inspectedAssemblies": 320,
+    "inspectedMethods": 328090,
+    "literalOccurrences": 137589,
+    "assemblyReadErrors": [],
+    "reviewedCandidateTexts": 2147,
+    "translatedTexts": 1497,
+    "translatedPackageTexts": 1545,
+    "methodLiteralRules": 1668,
+    "methods": 508,
+    "packages": 69,
+    "retainedCandidateTexts": 602,
+    "unsupportedSourceReferences": [],
+    "formatChecks": "passed: placeholders, rich-text tags and line breaks",
+    "sourceAssemblyExecution": false,
+    "gameExecuted": false,
+    "observedInstalledPack": "1.1",
+    "expectedRimWorld": "1.6.4871 rev590",
+    "runtimeGuard": "Exact assembly name, module MVID, method token/type/name and original literal; changed versions skipped",
+    "manifestSha256": "a5da667bbfc25a0107bb2a8670b04260f5ea8ab13af619612313b448298e9645"
+  },
+  "sourceAssemblyExecution": false,
+  "previousVersionValidation": {
+    "supportedRimWorldVersion": "1.6",
+    "dependency": "seohyeon.autotranslation",
+    "basePayloadUnchanged": true,
+    "basePayloadSha256": "40ea21bacb5cb1bc18be21693cf7d69fc8814e7e1235481c8306b915bbbbe576",
+    "supplementSha256": "2082ed0c3b30074097c59b32c3915e8290390b884b8ace9c36ab51e070a9cd0f",
+    "directManifestSha256": "df4ac07f455b6f0a61d519bb649b01372c738a2a486f84cddbb1bfd5b57b7e78",
+    "compiled": true,
+    "simulatedCacheAliases": 38566,
+    "simulatedGrammarAliases": 1982,
+    "folderTests": [
+      {
+        "test": "root filename LoadFolders.xml",
+        "passed": true
+      },
+      {
+        "test": "root filename loadFolders.xml",
+        "passed": true
+      },
+      {
+        "test": "root filename loadfolders.xml",
+        "passed": true
+      },
+      {
+        "test": "root filename LOADFOLDERS.XML",
+        "passed": true
+      },
+      {
+        "test": "actual Tasty Armory 3469863391",
+        "passed": true
+      },
+      {
+        "test": "actual Tasty Armory 3472989392",
+        "passed": true
+      },
+      {
+        "test": "actual Tasty Armory 3480089301",
+        "passed": true
+      },
+      {
+        "test": "actual Tasty Armory 3482266407",
+        "passed": true
+      },
+      {
+        "test": "actual reported helmet source recovered",
+        "passed": true
+      }
+    ],
+    "upstreamApiMetadata": {
+      "reference": "csh1668/AutoTranslation/1.6/Assemblies/AutoTranslation.dll",
+      "upstreamBlobSha": "c31d2ee3a80d8014fea9e6b892c9061f2a1cea48",
+      "verifiedContract": {
+        "AutoTranslation.Services.TranslatorManager": [
+          "fields",
+          [
+            "CachedTranslationsV2",
+            "Ready"
+          ]
+        ],
+        "AutoTranslation.Services.TranslationCacheManager": [
+          "methods",
+          [
+            "get_Instance",
+            "get_Cache"
+          ]
+        ],
+        "AutoTranslation.Utilities.Helpers": [
+          "methods",
+          [
+            "ToFormatString"
+          ]
+        ],
+        "AutoTranslation.Services.InjectionManager": [
+          "methods",
+          [
+            "ReapplyTranslations"
+          ]
+        ],
+        "AutoTranslation.Settings": [
+          "fields",
+          [
+            "EnableAutoTranslation"
+          ]
+        ]
+      },
+      "gameTypes": [
+        "Verse.Mod",
+        "Verse.ModContentPack",
+        "Verse.StaticConstructorOnStartup",
+        "Verse.LanguageDatabase",
+        "Verse.Prefs"
+      ],
+      "passed": true,
+      "gameExecuted": false
+    },
+    "previousVersionValidation": {
+      "version": "1.2.0",
+      "baseEntries": 41850,
+      "previousAdditionalEntries": 877,
+      "newEntriesThisVersion": 1425,
+      "newEntries": 2302,
+      "totalEntries": 44152,
+      "directRules": 58526,
+      "previousDirectRules": 53995,
+      "additionalDirectRules": 4531,
+      "directPackages": 229,
+      "newByMod": {
+        "Vanilla Furniture Expanded - Security": 3,
+        "Vanilla Furniture Expanded - Props and Decor": 946,
+        "Vanilla Ideology Expanded - Memes and Structures": 140,
+        "Vanilla Factions Expanded - Pirates": 33,
+        "Vanilla Plants Expanded - More Plants": 50,
+        "Vanilla Races Expanded - Sanguophage": 2,
+        "Alpha Mechs": 83,
+        "Vanilla Races Expanded - Pigskin": 3,
+        "Reel's Expanded Storage": 6,
+        "Vanilla Factions Expanded - Medieval 2": 61,
+        "Tasty Armory - High Medieval": 15,
+        "Chougou Mechs": 70,
+        "Vanilla Furniture Expanded": 5,
+        "Medieval Medicines Medieval Overhaul Edition": 7,
+        "Tasty Armory - In Shining Armor": 1
+      },
+      "retainedProperNamesAndAlreadySpanish": 58,
+      "recognizedNewFiles": 528,
+      "previousSupplementPreserved": true,
+      "previousDirectRulesPreserved": true,
+      "screenshotPolicies": 50,
+      "waterLock": 2,
+      "spectacleHelm": 2,
+      "markerErrors": 0,
+      "gameExecuted": false,
+      "supportedRimWorldVersion": "1.6",
+      "dependency": "seohyeon.autotranslation",
+      "basePayloadUnchanged": true,
+      "basePayloadSha256": "40ea21bacb5cb1bc18be21693cf7d69fc8814e7e1235481c8306b915bbbbe576",
+      "supplementSha256": "2082ed0c3b30074097c59b32c3915e8290390b884b8ace9c36ab51e070a9cd0f",
+      "directManifestSha256": "df4ac07f455b6f0a61d519bb649b01372c738a2a486f84cddbb1bfd5b57b7e78",
+      "loaderSha256": "e6665df0922e2263ccd96ba83d5562e8df1ea29d61f190f59632a86b02e4fff9",
+      "compiled": true,
+      "simulatedCacheAliases": 38566,
+      "simulatedGrammarAliases": 1982,
+      "integrationTests": [
+        {
+          "test": "spanish-test",
+          "passed": true
+        },
+        {
+          "test": "latin-test",
+          "passed": true
+        },
+        {
+          "test": "other-language-test",
+          "passed": true
+        },
+        {
+          "test": "late-test",
+          "passed": true
+        },
+        {
+          "test": "automatic-automatic",
+          "passed": true
+        },
+        {
+          "test": "invalid-invalid",
+          "passed": true
+        },
+        {
+          "test": "invalid-dtd",
+          "passed": true
+        },
+        {
+          "test": "grammar-test",
+          "passed": true
+        },
+        {
+          "test": "direct-screenshots",
+          "passed": true
+        },
+        {
+          "test": "direct-tasty",
+          "passed": true
+        },
+        {
+          "test": "direct-french",
+          "passed": true
+        },
+        {
+          "test": "direct-atomic",
+          "passed": true
+        },
+        {
+          "test": "missing-dependency",
+          "passed": true
+        }
+      ],
+      "folderTests": [
+        {
+          "test": "root filename LoadFolders.xml",
+          "passed": true
+        },
+        {
+          "test": "root filename loadFolders.xml",
+          "passed": true
+        },
+        {
+          "test": "root filename loadfolders.xml",
+          "passed": true
+        },
+        {
+          "test": "root filename LOADFOLDERS.XML",
+          "passed": true
+        },
+        {
+          "test": "actual Tasty Armory 3469863391",
+          "passed": true
+        },
+        {
+          "test": "actual Tasty Armory 3472989392",
+          "passed": true
+        },
+        {
+          "test": "actual Tasty Armory 3480089301",
+          "passed": true
+        },
+        {
+          "test": "actual Tasty Armory 3482266407",
+          "passed": true
+        },
+        {
+          "test": "actual reported helmet source recovered",
+          "passed": true
+        }
+      ],
+      "upstreamApiMetadata": {
+        "reference": "csh1668/AutoTranslation/1.6/Assemblies/AutoTranslation.dll",
+        "upstreamBlobSha": "c31d2ee3a80d8014fea9e6b892c9061f2a1cea48",
+        "verifiedContract": {
+          "AutoTranslation.Services.TranslatorManager": [
+            "fields",
+            [
+              "CachedTranslationsV2",
+              "Ready"
+            ]
+          ],
+          "AutoTranslation.Services.TranslationCacheManager": [
+            "methods",
+            [
+              "get_Instance",
+              "get_Cache"
+            ]
+          ],
+          "AutoTranslation.Utilities.Helpers": [
+            "methods",
+            [
+              "ToFormatString"
+            ]
+          ],
+          "AutoTranslation.Services.InjectionManager": [
+            "methods",
+            [
+              "ReapplyTranslations"
+            ]
+          ],
+          "AutoTranslation.Settings": [
+            "fields",
+            [
+              "EnableAutoTranslation"
+            ]
+          ]
+        },
+        "gameTypes": [
+          "Verse.Mod",
+          "Verse.ModContentPack",
+          "Verse.StaticConstructorOnStartup",
+          "Verse.LanguageDatabase",
+          "Verse.Prefs"
+        ],
+        "passed": true,
+        "gameExecuted": false
+      },
+      "scope": "Case-insensitive root load-folder filename selection, exact v1.6 branches, display fields of XML definitions, inherited paths, patch-created definitions and resolvable literal patch targets. Existing different values are preserved. Custom code strings and updated mods require runtime inspection."
+    },
+    "version": "1.3.0",
+    "baseEntries": 41850,
+    "additionalCacheEntries": 2302,
+    "totalEntries": 44152,
+    "newCacheEntriesThisVersion": 0,
+    "directRules": 58526,
+    "newDirectRulesThisVersion": 0,
+    "notificationTemplates": 1,
+    "newNotificationTemplatesThisVersion": 1,
+    "previousCachePayloadsUnchanged": true,
+    "previousDirectRulesUnchanged": true,
+    "gameExecuted": false,
+    "loaderSha256": "69999c3c35ae9ced4b840dde7f0e98dc77d42dc6c9a30649ac296e40f0cc865a",
+    "integrationTests": [
+      {
+        "test": "spanish-test",
+        "passed": true
+      },
+      {
+        "test": "latin-test",
+        "passed": true
+      },
+      {
+        "test": "other-language-test",
+        "passed": true
+      },
+      {
+        "test": "late-test",
+        "passed": true
+      },
+      {
+        "test": "automatic-automatic",
+        "passed": true
+      },
+      {
+        "test": "invalid-invalid",
+        "passed": true
+      },
+      {
+        "test": "invalid-dtd",
+        "passed": true
+      },
+      {
+        "test": "grammar-test",
+        "passed": true
+      },
+      {
+        "test": "direct-screenshots",
+        "passed": true
+      },
+      {
+        "test": "direct-tasty",
+        "passed": true
+      },
+      {
+        "test": "direct-french",
+        "passed": true
+      },
+      {
+        "test": "direct-atomic",
+        "passed": true
+      },
+      {
+        "test": "missing-dependency",
+        "passed": true
+      },
+      {
+        "test": "notification-spanish",
+        "passed": true
+      },
+      {
+        "test": "notification-latin",
+        "passed": true
+      },
+      {
+        "test": "notification-french",
+        "passed": true
+      },
+      {
+        "test": "notification-no-harmony",
+        "passed": true
+      }
+    ],
+    "notificationValidation": {
+      "realHarmony": true,
+      "simulatedGameApi": true,
+      "templateFromScreenshot": true,
+      "factionNamesPreserved": true,
+      "messageTargetsTypeHistoryPreserved": true,
+      "cachedPayloadsUnchanged": true
+    },
+    "scope": "Previous XML and cache coverage retained. One exact notification template is translated before a new matching Verse.Messages.Message is delivered. Runtime API verified with real Harmony and simulated game methods; RimWorld was not run."
+  },
+  "scope": "Preserves the complete prior payload. New XML and code translations are validated against the supplied sources; runtime integration uses simulated game/engine APIs and the real uploaded Harmony. RimWorld was not run."
+}
